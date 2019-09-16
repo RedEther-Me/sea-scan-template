@@ -1,0 +1,13 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    {
+      "directory": "./ui-react",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./server",
+      "changeProcessCWD": true
+    }
+  ]
+}
